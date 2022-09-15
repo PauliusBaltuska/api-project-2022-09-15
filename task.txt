@@ -1,0 +1,60 @@
+API nuoroda: https://jsonplaceholder.typicode.com
+
+1. Sukurti puslapį, kuriame bus atvaizduojami įrašai (posts). Kiekvienas įrašas turi:
+  1.1. Pavadinimą.
+  1.2. Pastraipą su įrašo (post) turiniu.
+  1.3. Autorių. Tai turi būti nuoroda. Kol kas ji gali niekur nevesti.
+
+3. Sukurti naują puslapį user.html, kuriame bus atvaizduojama vartotojo informacija:
+  3.1. Pilnas vardas.
+  3.2. Vartotojo vardas / nick'as.
+  3.3. El. paštas.
+  3.4. Adresas, kuris turės gatvę, namo numerį, miestą, pašto kodą. Paspaudus ant adreso, pagal koordinates, turėtų atidaryti šios vietos Google Maps.
+  3.5. Telefono numeris.
+  3.6. Internetinio puslapio adresas.
+  3.7. Įmonės, kurioje dirba, pavadinimas.
+
+4. Šiame puslapyje turės būti atvaizduojama:
+  4.1. Visi vartotojo parašyti įrašai (posts). Post'ų įrašuose nereikia atvaizduoti komentarų. Kiekvienas post'as turi turėti nuorodą.
+
+
+7. Sukurti naują puslapį post.html ir jame atvaizduoti:
+  7.1. Įrašo (post) pavadinimą.
+  7.2. Autoriaus vardą. Paspaudus ant autoriaus vardo, turėtų atidaryti autoriaus puslapį.
+  7.3. Įrašo turinį.
+
+  7.4. Įrašo komentarus. Komentarai turi būti atvaizduojami tokiu pačiu principu kaip ir pagrindiniame puslapyje.
+
+2. Po kiekvienu įrašu (post) index.html puslapyje atvaizduoti post'ų komentarus. Kiekvienas komentaras turi:
+  2.1. Komentaro pavadinimą.
+  2.2. Komentaro turinį - pastraipą.
+  2.3. Komentarą parašiusio asmens el. pašto adresą.
+
+5. Pagrindiniame (index.html) puslapyje pridėti skiltį, kurioje atvaizduojamas albumų sąrašas. Kiekvienas albumas turės:
+  5.1. Pavadinimą, o paspaudus ant jo - nukreipiama į albumą (album.html).
+  5.2. Albumo autoriaus vardą.
+  
+2022 09 13 =========================================
+6. Sukurti naują puslapį album.html ir jame atvaizduoti:
+  6.1. Albumo pavadinimą.
+  6.2. Album autoriaus vardą. Paspaudus ant vardo - nukreipiama į autoriaus puslapį.
+  6.3. Skiltis, kurioje atvaizduojamos visos albumo nuotraukos.
+
+8. Sukurti vartotojų puslapį (users.html), kuriame būtų atvaizduotas vartotojų sąrašas.
+  8.1. Prie vartotojo turėtu būti jo vardas ir parašytų post'ų skaičius.
+  8.2. Paspaudus ant vartotojo - nukreipiama į jo puslapį.
+
+9. Tokiu pačiu principu, kaip ir vartotojų puslapį, sukurti puslapį albumams (albums.html).
+  9.1. Prie kiekvieno albumo turi būti:
+    9.1.1. Parašytas jo pavadinimas.
+    9.1.2. Parašytas vartotojo, sukūrusio šį albumą, vardas.
+    9.1.3. Albume esančių nuotraukų skaičius.
+    9.1.4. Viena nuotrauka
+
+2022 09 14 =======================================
+
+    10. Sukurti navigacijos elementą, kuris nukreips į puslapius:
+  10.1. Home / pagrindinis puslapis.
+  10.2. Users / vartotojų puslapis.
+  10.3. Albums / albumų puslapis.
+  10.4. Posts / pranešimų puslapis.
