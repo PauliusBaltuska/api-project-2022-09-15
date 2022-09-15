@@ -10,7 +10,7 @@ let albumsNav = document.createElement('button');
 let postsNav = document.createElement('button');
 if(home > -1){
     homeNav.classList.add('nav-current');
-    homeNav.innerHTML = 'Home';}
+    homeNav.innerHTML = 'Main';}
     else{
 homeNav.innerHTML = '<a href="./index.html">Home</a>';}
 if(users > -1){
